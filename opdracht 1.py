@@ -13,7 +13,7 @@ Hss = control.tf2ss(H)
 print(Hss)
 
 K = [0.1, 1, 2, 10]
-
+#HALLLOWWW
 for i in range(0, len(K)):
     Sys1 = K[i]*H
     Sys2 = 1
