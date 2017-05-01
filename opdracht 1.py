@@ -11,9 +11,9 @@ print(H.pole(), H.zero())
 print("Hoi")
 Hss = control.tf2ss(H)
 print(Hss)
-
+#test1123
 K = [0.1, 1, 2, 10]
-#HALLLOWWW
+
 for i in range(0, len(K)):
     Sys1 = K[i]*H
     Sys2 = 1
